@@ -4,15 +4,18 @@
 confirm("I'm trippin'.");
 var age = prompt("What's your age?");
 
-// age verification
-if (age < 18) {
-    console.log("You're too young to go to jail!");
-    console.log("Have fun!");
-} 
-else {
-    console.log("Enjoy lolis beyond space and time!");
-}
+var ageVerification = function (age) {
+    // age verification
+    if (age < 18) {
+        console.log("You're too young to go to jail!");
+        console.log("Have fun!");
+    } 
+    else {
+        console.log("Enjoy lolis beyond space and time!");
+    }
+};
 
+ageVerification(age);
 
 // some story
 console.log("We went on a trip with our 'gravity' ship falling upwards in rainbows fashion.");
